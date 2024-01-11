@@ -1,0 +1,146 @@
+[0m15:40:05.895707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0AD8A2D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0AD3DC8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0AD3D8DD0>]}
+
+
+============================== 15:40:05.915381 | 4037b076-c9fe-408d-b15e-50d8de9d6b8f ==============================
+[0m15:40:05.915381 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:40:05.920384 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\wongi\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init warehouse', 'send_anonymous_usage_stats': 'True'}
+[0m15:40:05.921384 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/wongi/.dbt')}
+[0m15:40:05.923386 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:40:05.926385 [debug] [MainThread]: Starter project path: D:\research_writing\Python_Code\dbt_trial\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:40:07.249878 [info ] [MainThread]: 
+Your new dbt project "warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:40:07.258848 [info ] [MainThread]: Setting up your profile.
+[0m15:42:19.913202 [info ] [MainThread]: Profile warehouse written to C:\Users\wongi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:42:19.917231 [debug] [MainThread]: Command `dbt init` succeeded at 15:42:19.917231 after 135.17 seconds
+[0m15:42:19.919187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A6628BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A6628B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A6628C90>]}
+[0m15:42:19.920230 [debug] [MainThread]: Flushing usage events
+[0m15:45:47.930925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D093F350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D093CA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D03FB8D0>]}
+
+
+============================== 15:45:49.049757 | fc32428d-1403-4279-b6cb-5a97b0c8b086 ==============================
+[0m15:45:49.049757 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:45:49.051779 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\wongi\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:45:49.052757 [info ] [MainThread]: dbt version: 1.7.4
+[0m15:45:49.053756 [info ] [MainThread]: python version: 3.11.6
+[0m15:45:49.054755 [info ] [MainThread]: python path: D:\research_writing\Python_Code\dbt_trial\venv\Scripts\python.exe
+[0m15:45:49.056756 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:45:49.165583 [info ] [MainThread]: Using profiles dir at C:\Users\wongi\.dbt
+[0m15:45:49.166585 [info ] [MainThread]: Using profiles.yml file at C:\Users\wongi\.dbt\profiles.yml
+[0m15:45:49.167584 [info ] [MainThread]: Using dbt_project.yml file at D:\research_writing\Python_Code\dbt_trial\dbt_project.yml
+[0m15:45:49.169588 [info ] [MainThread]: Configuration:
+[0m15:45:49.170602 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:45:49.172585 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:45:49.173583 [info ] [MainThread]: Required dependencies:
+[0m15:45:49.174584 [debug] [MainThread]: Executing "git --help"
+[0m15:45:49.205287 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:45:49.206287 [debug] [MainThread]: STDERR: "b''"
+[0m15:45:49.207309 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:45:49.209285 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:45:49.211290 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:45:49.214305 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "warehouse", target "dev" invalid: 0 is not of type 'string'
+
+
+[0m15:45:49.216302 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\research_writing\Python_Code\dbt_trial\dbt_project.yml> not found
+
+[0m15:45:49.220339 [debug] [MainThread]: Command `dbt debug` failed at 15:45:49.220339 after 1.35 seconds
+[0m15:45:49.222300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D02AF3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D051F4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2D020E6D0>]}
+[0m15:45:49.223301 [debug] [MainThread]: Flushing usage events
+[0m15:47:42.595117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226679E4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022667BFA810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022667BF8650>]}
+
+
+============================== 15:47:43.667595 | 0e1cc270-b93f-4d3a-bfe3-b5927539dfc2 ==============================
+[0m15:47:43.667595 [info ] [MainThread]: Running with dbt=1.7.4
+[0m15:47:43.674596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\wongi\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:47:43.678286 [info ] [MainThread]: dbt version: 1.7.4
+[0m15:47:43.681284 [info ] [MainThread]: python version: 3.11.6
+[0m15:47:43.683289 [info ] [MainThread]: python path: D:\research_writing\Python_Code\dbt_trial\venv\Scripts\python.exe
+[0m15:47:43.689923 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:47:44.142718 [info ] [MainThread]: Using profiles dir at C:\Users\wongi\.dbt
+[0m15:47:44.144723 [info ] [MainThread]: Using profiles.yml file at C:\Users\wongi\.dbt\profiles.yml
+[0m15:47:44.145723 [info ] [MainThread]: Using dbt_project.yml file at D:\research_writing\Python_Code\dbt_trial\dbt_project.yml
+[0m15:47:44.148248 [info ] [MainThread]: adapter type: postgres
+[0m15:47:44.151252 [info ] [MainThread]: adapter version: 1.7.4
+[0m15:47:44.157807 [info ] [MainThread]: Configuration:
+[0m15:47:44.162926 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:47:44.165930 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:47:44.179249 [info ] [MainThread]: Required dependencies:
+[0m15:47:44.183267 [debug] [MainThread]: Executing "git --help"
+[0m15:47:44.282560 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:47:44.285562 [debug] [MainThread]: STDERR: "b''"
+[0m15:47:44.289242 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:47:44.297275 [info ] [MainThread]: Connection:
+[0m15:47:44.303863 [info ] [MainThread]:   host: localhost
+[0m15:47:44.309423 [info ] [MainThread]:   port: 5432
+[0m15:47:44.315453 [info ] [MainThread]:   user: iw
+[0m15:47:44.321009 [info ] [MainThread]:   database: db-sql
+[0m15:47:44.326046 [info ] [MainThread]:   schema: crm
+[0m15:47:44.334707 [info ] [MainThread]:   connect_timeout: 10
+[0m15:47:44.344348 [info ] [MainThread]:   role: None
+[0m15:47:44.356052 [info ] [MainThread]:   search_path: None
+[0m15:47:44.362731 [info ] [MainThread]:   keepalives_idle: 0
+[0m15:47:44.365714 [info ] [MainThread]:   sslmode: None
+[0m15:47:44.377342 [info ] [MainThread]:   sslcert: None
+[0m15:47:44.399219 [info ] [MainThread]:   sslkey: None
+[0m15:47:44.412877 [info ] [MainThread]:   sslrootcert: None
+[0m15:47:44.422491 [info ] [MainThread]:   application_name: dbt
+[0m15:47:44.430051 [info ] [MainThread]:   retries: 1
+[0m15:47:44.432050 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m15:47:44.449671 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m15:47:44.457235 [debug] [MainThread]: Using postgres connection "debug"
+[0m15:47:44.463257 [debug] [MainThread]: On debug: select 1 as id
+[0m15:47:44.468801 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:47:48.607865 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[0m15:47:52.715330 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m15:47:52.718908 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m15:47:52.722007 [debug] [MainThread]: On debug: No close available on handle
+[0m15:47:52.724945 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:47:52.732648 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:47:52.737346 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\research_writing\Python_Code\dbt_trial\dbt_project.yml> not found
+
+[0m15:47:52.745282 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+  	Is the server running on that host and accepting TCP/IP connections?
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:47:52.768244 [debug] [MainThread]: Command `dbt debug` failed at 15:47:52.765670 after 10.41 seconds
+[0m15:47:52.772240 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:47:52.778843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226680B0D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002266794A450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022667929DD0>]}
+[0m15:47:52.788408 [debug] [MainThread]: Flushing usage events
